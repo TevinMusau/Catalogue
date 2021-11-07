@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditDetails"
+    android:background="#FDF5E6">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/edit_details_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:padding="10dp"
+            android:text="@string/edit_details"
+            android:textColor="#E9967A"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/new_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/edit_details_textView"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/image_search" />
+
+        <TextView
+            android:id="@+id/change_profileImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/new_image"
+            android:layout_centerHorizontal="true"
+            android:text="@string/change_profile_image"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:textStyle="italic|bold"
+            />
+
+        <EditText
+            android:id="@+id/edit_display_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/change_profileImage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:ems="14"
+            android:hint="@string/enter_new_display_name"
+            android:inputType="text|textCapSentences"
+            android:textColor="#E9967A"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/submitEdits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_display_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#FFA07A"
+            android:ems="14"
+            android:padding="10dp"
+            android:text="@string/submit" />
+    </RelativeLayout>
+
+</ScrollView>

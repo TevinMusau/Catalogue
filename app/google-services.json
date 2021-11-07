@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "223549774263",
+    "project_id": "inside-5473d",
+    "storage_bucket": "inside-5473d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223549774263:android:25bd1b23047436ab42b032",
+        "android_client_info": {
+          "package_name": "com.tevin.inside"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223549774263-al7mfruqd31ann8uig49b1gvlqlm1b0c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA064h6Un5-yTtw6DqpzlGpk58N-2ow-zs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223549774263-al7mfruqd31ann8uig49b1gvlqlm1b0c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

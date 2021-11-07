@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddItem"
+    android:background="#FDF5E6">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/add_item_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:padding="10dp"
+            android:text="@string/add_item"
+            android:textColor="#E9967A"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/image_item"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/add_item_textView"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/image_search"/>
+
+        <EditText
+            android:id="@+id/item_name_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_item"
+            android:inputType="text|textCapSentences"
+            android:hint="@string/enter_item_name"
+            android:layout_centerHorizontal="true"
+            android:textColor="#E9967A"
+            android:textSize="18sp"
+            android:ems="14"
+            android:layout_marginTop="40dp"
+            />
+        <EditText
+            android:id="@+id/item_quantity_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_name_add"
+            android:inputType="number"
+            android:hint="@string/enter_item_quantity"
+            android:layout_centerHorizontal="true"
+            android:textColor="#E9967A"
+            android:textSize="18sp"
+            android:ems="14"
+            android:layout_marginTop="40dp"
+            />
+        <Button
+            android:id="@+id/submitItemBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_quantity_add"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="@string/submit_item"
+            />
+    </RelativeLayout>
+
+</ScrollView>
